@@ -8,7 +8,10 @@
     display: flex;
 }
 /* Header */
-
+a{ 
+    text-decoration: none;
+    color: purple;
+}
 header{
     padding: 20px 35px;
     background-color: black;
@@ -61,7 +64,7 @@ section{
 .hero {
     background-image: url("../images/ketsup.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -83,15 +86,27 @@ section{
 }
 
 .project{
+    width: 50%;
     margin: 20px;
     background: #024e76;
     color: #fce138;
     padding: 50px 50px;
-    flex: 1;
 }
+
 #project1{
-    width: 100%;
+
     padding: 250px 250px;
+    margin: 20px;
+    flex-direction: column-reverse;
+    background-image: url("../images/hero-bg.jpeg");
+
+}
+
+.project-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 #contact {
@@ -101,9 +116,4 @@ section{
     flex: 1;
     margin: 50px;
 }
-.break {
-    flex-basis: 100%;
-    width: 0;
-}
-
 
