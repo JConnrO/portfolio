@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 35px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+section{
+    padding: 60px;
+}
+.section-title {
+    font-size: 48px;
+    color: #024e76;
+    border-right: 3px solid;
+    border-color: #39a6b2;
+    padding-bottom: 5px;
+    text-align: left;
+    margin: 0 auto 35px auto;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex: 1 20%;
+}
+
+.hero {
+    background-image: url("../images/ketsup.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 400px;
+}
+.projects{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.project{
+    width: 50%;
+    margin: 20px;
+    background: #024e76;
+    color: #fce138;
+    flex: 1;
+}
+.project img {
+    width: 100%;
+}
+
+.flex-row{
+    display: flex;
+}
+.content {
+    width: 80%;
+}
+
