@@ -166,7 +166,7 @@ ul {
     }
     .navbar .container {
         padding-left: 10px;
-        margin-left: 0px;
+        margin-left: -10px;
         justify-content: flex-start;
     }
     .icon {
