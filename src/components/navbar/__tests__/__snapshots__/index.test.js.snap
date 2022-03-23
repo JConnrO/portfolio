@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component snapshot 1`] = `
+<DocumentFragment>
+  <nav>
+    Hello World
+  </nav>
+</DocumentFragment>
+`;
