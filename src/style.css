@@ -65,6 +65,7 @@ ul {
     background-color: #0151cc;
     color: #fff;
     min-height: 350px;
+    width: 100%;
 }
 .header h1 {
     font-size: 3rem;
