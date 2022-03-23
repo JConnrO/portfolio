@@ -7,7 +7,7 @@ function Navbar() {
             <div class="container">
                 <ul class="nav">
                     <li>
-                        <a href="#">Bio</a>
+                        <a href="#bio">Bio</a>
                     </li>
                     <li>
                         <a href="#portfolio">Projects</a>
