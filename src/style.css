@@ -1,3 +1,10 @@
+/*
+https://coolors.co/0c0a3e-7b1e7a-b33f62-f9564f-f3c677
+https://coolors.co/48639c-4c4c9d-712f79-976391-f7996e
+https://coolors.co/73eedc-73c2be-776885-5f1a37-04030f
+https://coolors.co/000000-14213d-950952-ee6c4d-5b7553
+https://coolors.co/000000-14213d-983628-5b85aa-5b9279
+ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 * {
     box-sizing: border-box;
@@ -5,12 +12,19 @@
     padding: 0;
 }
 
+:root {
+    --background:#5B85AA;
+    --text: #000000;
+    --primary: #14213D;
+
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background: #a1c3ff;
+    background: var(--background);
 }
 
 img {
@@ -30,7 +44,7 @@ ul {
     padding: 0 30px;
 }
 .navbar {
-    background: #3474e6;
+    background: var(--background);
     color: white;
     height: 60px;
 }
@@ -62,7 +76,7 @@ ul {
     margin-left: 20px;
 }
 .header {
-    background-color: #0151cc;
+    background-color: var(--primary);
     color: #fff;
     min-height: 350px;
     width: 100%;
@@ -94,7 +108,7 @@ ul {
 }
 .box {
     flex: 1;
-    background: #0151cc;
+    background: var(--primary);
     color:#fff;
     border-radius: 10px;
     margin: 20px 10px;
