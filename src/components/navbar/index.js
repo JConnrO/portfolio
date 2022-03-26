@@ -10,7 +10,7 @@ function Navbar() {
                         <a href="#bio">Bio</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>

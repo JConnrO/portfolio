@@ -3,7 +3,7 @@ import Project from '../project';
 
 function Showcase() {
     return( 
-        <section class="boxes showcase">
+        <section class="boxes showcase" id="projects">
             <div class="container showcase-row-1">
                 <Project></Project>
                 <Project></Project>

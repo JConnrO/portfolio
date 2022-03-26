@@ -1,9 +1,7 @@
 /*
-https://coolors.co/0c0a3e-7b1e7a-b33f62-f9564f-f3c677
-https://coolors.co/48639c-4c4c9d-712f79-976391-f7996e
-https://coolors.co/73eedc-73c2be-776885-5f1a37-04030f
-https://coolors.co/000000-14213d-950952-ee6c4d-5b7553
 https://coolors.co/000000-14213d-983628-5b85aa-5b9279
+https://coolors.co/000000-14213d-c57b57-5b85aa-f1ab86
+https://coolors.co/000000-14213d-d7fdf0-5b85aa-b2ffd6
  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 * {
@@ -14,7 +12,8 @@ https://coolors.co/000000-14213d-983628-5b85aa-5b9279
 
 :root {
     --background:#5B85AA;
-    --text: #000000;
+    --text: #EDD9A3;
+    --text-two: #DDFFF7;
     --primary: #14213D;
 
 }
@@ -77,7 +76,7 @@ ul {
 }
 .header {
     background-color: var(--primary);
-    color: #fff;
+    color: var(--text);
     min-height: 350px;
     width: 100%;
 }
@@ -109,7 +108,7 @@ ul {
 .box {
     flex: 1;
     background: var(--primary);
-    color:#fff;
+    color: var(--text);
     border-radius: 10px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px rbga(0,0,0,0.6);
