@@ -1,19 +1,26 @@
 import React from 'react';
 import linkedin from '../../assets/icons/linkedin.png';
 import github from '../../assets/icons/github.png';
+import Icon from '../icon';
 
 function Icons() {
     return(
         <ul className="icons">
-            <li className="icon">
-                <a href="https://github.com/JConnrO" target="_blank" id="github-link">
-                    <img alt='github' id="github-icon" src={github} style={{ height:"32px", width: "32px" }}/>
-                </a>
+            <li>
+                <Icon
+                    icon_url={"https://github.com/JConnrO"}
+                    icon_src={github}
+                    img_alt={"Link to Personal Github"}
+                    img_id={"github_home"}  
+                />
             </li>
-            <li className="icon">
-                <a href="https://www.linkedin.com/in/jconnorobrien/" target="_blank"  id="linkedin-link">
-                    <img alt='linkedin' id="linkedin-icon" src={linkedin} style={{ height:"32px", width: "32px" }}/>
-                </a>
+            <li>
+                <Icon
+                    icon_url={"https://www.linkedin.com/in/jconnorobrien/"}
+                    icon_src={linkedin}
+                    img_alt={"Link to Linkedin"}
+                    img_id={"linkedin-icon"}  
+                />
             </li>
         </ul>
     )
