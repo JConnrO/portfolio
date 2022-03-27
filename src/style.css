@@ -3,7 +3,8 @@ https://coolors.co/000000-14213d-983628-5b85aa-5b9279
 https://coolors.co/000000-14213d-c57b57-5b85aa-f1ab86
 https://coolors.co/000000-14213d-d7fdf0-5b85aa-b2ffd6
  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,14 +13,14 @@ https://coolors.co/000000-14213d-d7fdf0-5b85aa-b2ffd6
 
 :root {
     --background:#5B85AA;
-    --text: #EDD9A3;
+    --text: #D7FDF0;
     --text-two: #DDFFF7;
     --primary: #14213D;
 
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -58,7 +59,7 @@ ul {
     font-weight: bold;
 }
 .navbar a:hover {
-    color:lightblue;
+    color: #B2FFD6;
 }
 .navbar .container {
     display: flex;
@@ -96,6 +97,35 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.project_icon{
+    background-color: #5B85AA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:50%;
+    border-radius: 0 0 0 0;
+}
+.github_button{
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+.website_button{
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+.button {
+    transition-duration: 0.4s;
+}
+  
+.project_icon:hover {
+    background-color: #B2FFD6;
+    color: white;
 }
 
 .boxes .container {

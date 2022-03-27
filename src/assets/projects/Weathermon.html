@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://jconnro.github.io/weatherman/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Weathermon_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Weathermon_files/style.css">
+    <title>Weathermon</title>
+</head>
+<body><div id="StayFocusd-infobar" style="display:none;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">hide once</a>
+    </span>
+</div>
+    <div class="container">
+        <div class="row justify-content-center page-title-div">
+            <h1 class="page-title">Weatherman</h1>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="row" id="searchbar">
+                    <div class="form-input">
+                        <form id="form">
+                            <div class="row">
+                                <h2>Search for a City:</h2>
+                            </div>
+                            <div class="row">
+                                <input placeholder="Search cities" id="city-search" type="text" class="col-9">
+                            </div>
+                            <div class="row">
+                                <button type="button" id="submit" class="col-9 btn btn-primary submit">Search</button>
+                            </div>
+                            <div class="row" id="search-history"><h3>Search History:</h3><button type="button" class="col-9 btn-primary btn btn-secondary recent-search">Jersey City</button></div>
+                        </form>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col-9">
+                <div class="row" id="forecast-today-title"></div>
+                <div class="row" id="forecast-today"><h2 class="card-header col-12">Jersey City 3/26/2022</h2><div class="card col-12"><div class="card-body"><div class="row"><div class="uvi-title col-2">Temp: </div><div>44 F</div></div><div class="row"><div class="uvi-title col-2">Wind: </div><div>7.72 MPH</div></div><div class="row"><div class="uvi-title col-2">Humidity: </div><div>54%</div></div><div class="row"><div class="uvi-title col-2">UVI: </div><button class="btn btn-success disabled">0</button></div></div></div></div>
+                <div class="row" id="forecast-5day-title"></div>
+                <div class="row" id="forecast-5day"><div class="card col card-5day"><div class="card-body"><h5>3/27/2022</h5><img class="row" src="./Weathermon_files/13d@2x.png"><div class="row">Temp: 44F</div><div class="row">Humidity: 38%</div><div class="row">Wind: 7.81 MPH</div></div></div><div class="card col card-5day"><div class="card-body"><h5>3/28/2022</h5><img class="row" src="./Weathermon_files/04d@2x.png"><div class="row">Temp: 30F</div><div class="row">Humidity: 24%</div><div class="row">Wind: 8.86 MPH</div></div></div><div class="card col card-5day"><div class="card-body"><h5>3/29/2022</h5><img class="row" src="./Weathermon_files/01d@2x.png"><div class="row">Temp: 36F</div><div class="row">Humidity: 30%</div><div class="row">Wind: 7.01 MPH</div></div></div><div class="card col card-5day"><div class="card-body"><h5>3/30/2022</h5><img class="row" src="./Weathermon_files/10d@2x.png"><div class="row">Temp: 38F</div><div class="row">Humidity: 35%</div><div class="row">Wind: 3.2 MPH</div></div></div><div class="card col card-5day"><div class="card-body"><h5>3/31/2022</h5><img class="row" src="./Weathermon_files/10d@2x.png"><div class="row">Temp: 58F</div><div class="row">Humidity: 93%</div><div class="row">Wind: 5.71 MPH</div></div></div></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./Weathermon_files/jquery.min.js"></script>
+    <script src="./Weathermon_files/bootstrap.min.js"></script>
+    <script src="./Weathermon_files/luxon.min.js"></script>
+    <script src="./Weathermon_files/script.js"></script>
+
+
+</body></html>
