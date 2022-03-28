@@ -28,8 +28,8 @@ function Showcase() {
     console.log(projects[0]);
 
     return( 
-        <section class="boxes showcase" id="projects">
-            <div class="container showcase-row-1">
+        <section className="boxes showcase" id="projects">
+            <div className="container showcase-row-1">
                 <Project project={projects[0]}/>
                 <Project project={projects[1]}/>
                 <Project project={projects[2]}/>

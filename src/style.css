@@ -98,43 +98,6 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
-
-.project_icon{
-    background-color: #5B85AA;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width:50%;
-    border-radius: 0 0 0 0;
-}
-.github_button{
-    border-radius: 10px 0 0 10px;
-    cursor: pointer;
-}
-.website_button{
-    border-radius: 0 10px 10px 0;
-    cursor: pointer;
-}
-.button {
-    transition-duration: 0.4s;
-}
-  
-.project_icon:hover {
-    background-color: #B2FFD6;
-    color: white;
-}
-
-.boxes .container {
-    display: flex;
-    justify-content: space-between;
-}
-.icons {
-    padding-top:10px;
-}
 .box {
     flex: 1;
     background: var(--primary);
@@ -143,6 +106,49 @@ ul {
     margin: 20px 10px;
     box-shadow: 0 3px 5px rbga(0,0,0,0.6);
     padding: 15px 20px;
+
+}
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+.project_img{
+    width: 100%;
+    height: 55%;
+}
+.project_button{
+    background-color: #5B85AA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:50%;
+    border-radius: 0 0 0 0;
+
+    margin-bottom:5%;
+    
+}
+.project_buttons {
+}
+.github_button{
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+.website_button{
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;    
+}
+.button {
+    transition-duration: 0.4s;
+}
+.project_button:hover {
+    background-color: #B2FFD6;
+    color: white;
+}
+.icons {
+    padding-top:10px;
 }
 
 @media(max-width: 768px) {
@@ -192,7 +198,7 @@ ul {
         display: block;
         text-align: center;
     }
-    .icon {
+    .icons .icon {
         width:24px;
         height:24px;
         padding-bottom: 50px;
@@ -200,6 +206,13 @@ ul {
         display: block;
         text-align: center;
     }
+    .project_button .icon {
+        width:24px;
+        height:24px;
+        padding-bottom: 50px;
+        justify-content: space-between;
+        text-align: center;
+    }    
 }
 @media(max-width: 450px) {
     .navbar a {
