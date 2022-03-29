@@ -10,7 +10,7 @@ function Icon(props) {
 
     return(
         <a href={icon_url} target="_blank" className="icon">
-            <img alt={img_alt} id={img_id} src={icon_src} style={{ height:"32px", width: "32px" }}/>
+            <img alt={img_alt} className="icon-img" id={img_id} src={icon_src} style={{ height:"32px", width: "32px" }}/>
         </a>
     )
 }

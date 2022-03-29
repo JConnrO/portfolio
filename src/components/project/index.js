@@ -9,7 +9,7 @@ function Project(props) {
     } = props;
 
     return( 
-        <div className="box project flex-row">
+        <div className="box project flex-row" onclick={project.website_url}>
             <h2 className="flex-row">{project.name}</h2>
             <img src={project.img_src} className="flex-row project_img"/>
             <div className="flex-row project_buttons">
