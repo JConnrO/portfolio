@@ -7,18 +7,15 @@ function Navbar() {
             <div class="container">
                 <ul class="nav">
                     <li>
+                        <a id='resume' target="_blank" href="https://drive.google.com/file/d/1sY6MGYYcJ07u5dt5vdSd4UPRn-GGm4xU/view?usp=sharing" rel="noreferrer">
+                        Resume
+                        </a>
+                    </li>
+                    <li>
                         <a href="#bio">Bio</a>
                     </li>
                     <li>
                         <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a id='resume' target="_blank" href="https://drive.google.com/file/d/1sY6MGYYcJ07u5dt5vdSd4UPRn-GGm4xU/view?usp=sharing" rel="noreferrer">
-                        Resume
-                        </a>
                     </li>
                 </ul>
                 <Icons></Icons>

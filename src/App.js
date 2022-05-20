@@ -30,7 +30,6 @@ function App() {
       <Showcase
         projects={projects}
       />
-      <Contact/>
     </div>
   );
 }

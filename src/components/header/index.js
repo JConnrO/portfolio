@@ -9,7 +9,8 @@ function Header() {
                 <div className="flex-row">
                     <h1>J. Connor O'Brien</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Software developer channeling passions for strategy, solving puzzles and coffee into JavaScript code.
+                    I enjoy building iteratively, figuring out life's efficiencies and fixing problems. Appreciation for team-driven and test-driven environments, learning new things and continuous improvement.  
                     </p>
                 </div>
                 <img src={avatar} alt=""></img>
